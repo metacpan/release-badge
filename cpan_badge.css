@@ -1,72 +1,76 @@
 .cpan-badge {
-	width: 300px;
-	height: 100px;
+	width: 280px;
+	height: auto;
 	border: 2px solid #62AEF0;
 	background-color: #E0FFEE;
-	border-radius: 15px;
+	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
-}
-
-.cpan-badge-name {
-	font-family: "Century Gothic", sans-serif;
-	font-size: 20px;
-	font-weight: bold;
-	text-decoration: none;
-	margin-left: 10px;
-	margin-top: 10px;
-	display: inline;
-	color: #2C90F5;
-}
-
-.cpan-badge-name:visited {
-	color: #2C90F5;
-}
-
-.cpan-badge-name:hover {
-	color: #F09462;
-}
-
-.cpan-credits {
-	font-family: "Century Gothic", sans-serif;
-	font-size: 14px;
-	text-decoration: none;
-	margin-left: 14px;
-	display: inline-block;
-}
-
-.cpan-abstract {
-	font-family: "Century Gothic", sans-serif;
+	border-radius: 15px;
+	font-family: arial, helvetica, sans-serif;
 	font-size: 12px;
+	padding: 5px 10px;
+}
+
+.cpan-badge a {
+	color: #2C90F5;
 	text-decoration: none;
-	margin-left: 10px;
-	margin-top: 0px;
-	display: block;
 }
-
-.cpan-home {
-	font-family: "Century Gothic", sans-serif;
-	color: #006AFF;
-	font-size: 13px;
-	text-decoration: none;
-	font-weight: bold;
-	text-align: center;
-	display: inline;
+.cpan-badge a:visited {
+	color: #2C90F5;
 }
-
-.cpan-nav {
-	display: block;
-	text-align: center;
-}
-
-.cpan-home:visited {
-	color: #006AFF;
-}
-.cpan-home:hover {
+.cpan-badge a:hover {
 	color: #F09462;
 }
-.cpan-version {
-	color: #BAB6B7;
-	font-size: 11px;
-	font-family: "Century Gothic", sans-serif;
+
+.cpan-badge .cpan-badge-name {
+	width: 100%;
+	height: auto;
+	font-size: 1.6em;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+.cpan-badge .cpan-meta-container {
+	width: 100%;
+	min-height: 20px;
+	margin-bottom: 5px;
+}
+.cpan-badge .cpan-version {
+	float: left;
+	width: 50%;
+	height: auto;
+	color: #9B9899;
+	font-size: .8em;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 2px;
+}
+
+.cpan-badge .cpan-credits {
+	float: right;
+	width: 50%;
+	height: auto;
+	font-size: 1em;
+	text-align: right;
+	vertical-align: top;
+}
+
+.cpan-badge .cpan-abstract {
+	width: 100%;
+	height: auto;
+	font-size: 1em;
+	margin-bottom: 5px;
+}
+
+.cpan-badge .cpan-home {
+	width: 100%;
+	height: auto;
+	font-size: .9em;
+	font-weight: bold;
 	text-align: center;
+}
+
+.cpan-badge .cpan-nav {
+	text-align: center;
+	color: #2C90F5;
 }
